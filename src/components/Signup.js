@@ -21,6 +21,7 @@ async function sign(e){
         // return;
     }
     try{
+        console.log("hiiii... ");
         let response = await axios.post("https://dummyjson.com/auth/login",{ username, password})
         setsuccess("user added successfully");
         seterror("");
