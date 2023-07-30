@@ -4,10 +4,12 @@ import {routes,route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <routes>
-<route element= {<Signup/>}/>
+      {/* <routes> */}
+{/* <route element= { */}
+<Signup/>
+{/* }/> */}
   
-      </routes>
+      {/* </routes> */}
     </div>
   )
 }
